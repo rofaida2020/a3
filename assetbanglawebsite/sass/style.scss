@@ -1,0 +1,37 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+ul,li{
+    margin: 0;
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+.container{
+    width: 1300px;
+    margin: 0 auto;
+}
+
+@import "variable/variable";
+@import "mixin/mixin";
+@import "component/header";
+@import "component/banner";
+@import "component/service";
+@import "component/property";
+@import "component/rentprop";
+@import "component/sellprop";
+@import "component/property_1";
+@import "component/description";
+@import "component/footer";
+@import "component/buypage";
+@import "responsive/responsive";
+@import "component/sellpage";
+@import "component/rentpage";
+@import "component/blog";
+@import "component/career";
+@import "component/footerpart2";
+@import "component/about";

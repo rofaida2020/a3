@@ -1,0 +1,106 @@
+.home_blog{
+    padding-top: 80px;
+.container{
+    a{
+        @include font-work($font-family , 15px , 400 , $main-colour);
+    }
+}
+
+}
+.blog_heading{
+ 
+   
+   .container{
+    .title{
+        @include title();
+        margin-bottom: 30px;
+        h4{
+            @include title_code();
+            display: inline-block;
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        p{
+            @include font-work($font-family , 18px , 500 , rgb(71, 67, 67));
+            text-align: center;
+        }
+    }
+   }
+   .blog_row{
+       display: flex;
+       flex-direction: column;
+       row-gap: 20px;
+       .row{
+           .col-lg-6{
+               width: 50%;
+               img{
+                   width: 80%;
+               }
+           }
+           .col-lg-6{
+               display: flex;
+               flex-direction: column;
+               justify-content: center;
+               h3{
+                   @include font-work($font-family , 25px , 600 , $main-colour);
+                   width: 70%;
+                   line-height: 1.2;
+               }
+               p{
+                   @include font-work($font-family , 15px , 400 , black);
+                   width: 80%;
+                   
+               }
+           }
+       }
+       .middele_heading{
+           margin: 30px 0;
+           h2{
+               @include font-work($font-family , 30px , 500 , black );
+               border-left: 3px solid $main-colour;
+               padding-left: 5px;
+              
+           } 
+       }
+   }
+   .blog_2nd{
+    .container{
+        h1{
+            margin-top: 30px;
+           @include font-work($font-family , 30px , 500 , $main-colour);
+         
+        }
+        .blog_row2{
+            margin: 20px 0;
+            .row{
+                display: flex;
+                flex-direction: column;
+                row-gap: 20px;
+                .col-lg-12{
+                    h2{
+                        @include font-work($font-family , 25px , 500 , black);
+                        border-left: 3px solid $main-colour;
+                        padding-left: 5px;
+                        margin: 30px 0;
+                    }
+                    p{
+                        @include font-work($font-family , 18px , 500 , rgb(62, 55, 55));
+                    }
+                }
+            }
+        }
+    }
+   }
+   .blog_3rd{
+    .col-lg-12{
+        h2{
+            margin-top: 30px;
+            @include font-work($font-family , 30px , 500 , $main-colour);
+        }
+    p{
+        @include font-work($font-family , 18px , 500 , rgb(62, 55, 55));
+    }
+
+    }
+   }
+}

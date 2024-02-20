@@ -1,0 +1,30 @@
+@mixin font_work($font-family , $font-size, $font-weight , $color){
+    font-family: $font-family;
+    font-size: $font-size;
+    font-weight: $font-weight;
+    color: $color;
+}
+@mixin font_work($font_family , $font-size, $font-weight , $color){
+    font-family: $font-family;
+    font-size: $font-size;
+    font-weight: $font-weight;
+    color: $color;
+}
+@mixin title(){
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+@mixin title_code(){
+    @include font_work($font-family, 15px, 500, white);
+    background: $main-colour;
+    padding: 10px 30px;
+    border-radius: 45px;
+}
+// =============responsive part=================
+@mixin respond-to($breakpoint) {
+    @media only screen and (max-width: $breakpoint) {
+      @content;
+    }
+  }

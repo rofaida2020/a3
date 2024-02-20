@@ -1,0 +1,29 @@
+.sell_flex{
+  padding: 100px 0;
+.row{
+  display: flex;
+  justify-content: space-between;
+  .col-lg-6{
+    .box{
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      padding-top: 50px;
+      
+      h2{
+        @include font-work($font-family , 25px , 500 , black);
+      }
+      p{
+        @include font-work($font-family , 15px , 400 , black);
+      }
+      span{
+        @include font-work($font-family , 15px , 400 , black);
+      }
+      ul{
+        padding-left: 0;
+        
+      }
+    }
+  }
+}
+}

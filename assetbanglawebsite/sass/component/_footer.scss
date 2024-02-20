@@ -1,0 +1,67 @@
+.footer_part {
+  padding-top: 100px;
+  background-color: rgb(27, 24, 24);
+  .footer_bg{
+    padding: 100px 0;
+    
+  }
+.text{
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+  align-items: center;
+  justify-content: center;
+  .container{
+    .row{
+.col-lg-12{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  row-gap: 20px;
+  h2{
+    @include font-work($font-family , 18px , 400 , white);
+    span{
+      @include font-work($font-family , 18px , 400 , $main-colour);
+    }
+
+  }
+  .follow_icon{
+    span{
+      @include font-work($font-family , 20px , 400 , white);
+
+    }
+    a{
+      .fa-facebook{
+        color: #316FF6;
+        font-size: 18px;
+      }
+      .fa-solid{
+        color: $main-colour;
+        font-size: 18px;
+      }
+    }
+  }
+  p{
+    @include font-work($font-family , 20px , 400 , white);
+    text-align: center;
+  }
+}
+
+    }
+  }
+}
+
+}
+.copy_right{
+  padding: 20px 0 ;
+  background-color: black;
+  .container{
+    display: flex;
+   align-items: center;
+    p{
+      @include font-work($font-family , 20px , 400 , white);
+      margin: 0;
+    }
+  }
+}

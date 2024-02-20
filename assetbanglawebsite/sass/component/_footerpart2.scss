@@ -1,0 +1,53 @@
+// .footer_part2 {
+//    margin-top: 100px;
+//    padding: 50px 0;
+//     background-color: #211f20;
+//   .container {
+//     // padding: 20px;
+//     display: flex;
+//     align-items: center;
+//     justify-content: center;
+//     flex-direction: column;
+//     h2{
+//    @include font-work($font-family , 20px , 400 , white);
+//     }
+//     .row {
+//       .col-lg-12 {
+//         display: flex;
+//         flex-direction: column;
+//         align-items: center;
+//         justify-content: center;
+//         row-gap: 10px;
+//         .follow_icon {
+//           display: flex;
+//           column-gap: 10px;
+//           span {
+//             @include font-work($font-family, 15px, 400, white);
+//           }
+
+//           .fa-facebook {
+//             color: blue;
+//             font-size: 15px;
+//           }
+//           .fa-instagram {
+//             color: $main-colour;
+//             font-size: 15px;
+//           }
+//         }
+//         p{
+//             @include font-work($font-family , 15px , 500 ,white);
+//             text-align: center;
+
+//         }
+//       }
+//     }
+//   }
+// }
+// .copy_right{
+//   padding: 20px 0 ;
+//   background-color: rgb(23, 21, 21);
+//   p{
+//     color: white;
+//     @include font-work($font-family , 15px , 400 , white);
+//   }
+// }
